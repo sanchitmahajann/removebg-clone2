@@ -1,0 +1,46 @@
+#hero {
+    padding: 50px 200px;
+}
+
+.hero-text {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+
+label {
+    background-color: #127dff;
+    color: white;
+    padding: .625rem 2rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 1rem;
+  }
+
+.upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* or any other value */
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
