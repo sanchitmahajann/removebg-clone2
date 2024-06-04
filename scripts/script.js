@@ -10,7 +10,7 @@ imageInput.addEventListener('change', () => {
   fetch('https://api.remove.bg/v1.0/removebg', {
     method: 'POST',
     headers: {
-      'X-Api-Key': 'EQAXSmYXpqtUkfVQiJRqfPHP'
+      'X-Api-Key': 'API_KEY_HERE'
     },
     body: formData
   })
